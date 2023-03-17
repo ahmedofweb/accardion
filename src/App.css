@@ -1,11 +1,41 @@
-.App {
-  text-align: center;
+
+.title{
+  display: flex;
+  justify-content: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.accardion{
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  padding: 18px;
+  border: 1px solid #6f6f73;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  box-shadow: 2px 2px 20px #000;
 }
+.accardion-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.accardion-header h2{
+  margin: 0;
+}
+.show-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 0;
+  font-size: 20px;
+  color: #fff;
+  background-color: #250a5a;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -34,5 +64,17 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+@media screen and (max-width:500px) {
+  body{
+    font-size: 10px;
+  }
+  .accardion{
+    width: 300px;
+    border-radius: 20px;
+  }
+  .question{
+    padding: 15px;
   }
 }
