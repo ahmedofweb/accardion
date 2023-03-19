@@ -13,6 +13,7 @@
   border-radius: 8px;
   margin-bottom: 15px;
   box-shadow: 2px 2px 20px #000;
+  background-color: #ffffff;
 }
 .accardion-header{
   display: flex;
@@ -23,17 +24,9 @@
   margin: 0;
 }
 .show-btn{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
   border: 0;
+  background-color: inherit;
   font-size: 20px;
-  color: #fff;
-  background-color: #250a5a;
 }
 
 

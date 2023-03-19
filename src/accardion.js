@@ -6,7 +6,7 @@ function Accardion({title, text}){
         <div className='accardion'>
             <div className='accardion-header'>
                 <h2>{title}</h2>
-                <button className='show-btn' onClick={()=> setShow(!show)}>{show ? "-" : "+"}</button>
+                <button className='show-btn' onClick={()=> setShow(!show)}>{show ? "🔽" : "▶️"}</button>
             </div>
             {
                 show && <p>{text}</p>
